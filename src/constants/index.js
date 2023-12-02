@@ -53,6 +53,27 @@ const experiences = [
 
 const projects = [
   {
+    name: 'Jenkins-Driven GitOps CI/CD Pipeline',
+    description:
+      'Implemented a CI/CD pipeline for React app on GCP using Artifact Registry, Cloud Build Trigger, and Kubernetes Cluster. It automated software delivery for development and production on GitHub, using Git for version control and CloudBuild Triggers. Defined build steps in cloudbuild.yaml and used Artifact Registry to store container images. A GCP Kubernetes cluster was set up for efficient app deployment, with configuration details in gke.yaml.',
+    tags: [
+      {
+        name: 'Azure',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Kubernetes',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Docker',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: Expense,
+    source_code_link: 'https://github.com/saqlaink/CICD-Pipeline-GCP',
+  },
+  {
     name: 'Javascript Notebook',
     description:
       'Developed a full-stack web application using React for the frontend and Express for the backend. Used ESBuild for transpiling and bundling code by fetching required package from Unpkg.com. Published the ”jscolab” package on NPM, making it accessible to users through the command ”npx jscolab serve”.',
@@ -93,27 +114,6 @@ const projects = [
     ],
     image: Ecommerce,
     source_code_link: 'https://github.com/saqlaink/ecommerce-front',
-  },
-  {
-    name: 'CICD PIPELINE',
-    description:
-      'Implemented a CI/CD pipeline for React app on GCP using Artifact Registry, Cloud Build Trigger, and Kubernetes Cluster. It automated software delivery for development and production on GitHub, using Git for version control and CloudBuild Triggers. Defined build steps in cloudbuild.yaml and used Artifact Registry to store container images. A GCP Kubernetes cluster was set up for efficient app deployment, with configuration details in gke.yaml.',
-    tags: [
-      {
-        name: 'GCP',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Kubernetes',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Docker',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: Expense,
-    source_code_link: 'https://github.com/saqlaink/CICD-Pipeline-GCP',
   },
 ];
 const certificates = [
