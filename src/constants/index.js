@@ -6,6 +6,8 @@ import {
   az104,
   az400,
   jscolab,
+  jenkins,
+  website,
 } from '../assets';
 
 export const navLinks = [
@@ -55,7 +57,29 @@ const projects = [
   {
     name: 'Jenkins-Driven GitOps CI/CD Pipeline',
     description:
-      'Implemented a CI/CD pipeline for React app on GCP using Artifact Registry, Cloud Build Trigger, and Kubernetes Cluster. It automated software delivery for development and production on GitHub, using Git for version control and CloudBuild Triggers. Defined build steps in cloudbuild.yaml and used Artifact Registry to store container images. A GCP Kubernetes cluster was set up for efficient app deployment, with configuration details in gke.yaml.',
+      'Developed a robust GitOps-driven Jenkins pipeline for end-to-end deployments in Azure, managing multi-stage processes like app building, testing, Dockerization, Trivy-based scanning, and CD triggers. Orchestrated Azure VMs, facilitating Jenkins and ArgoCD operations, ensuring version-controlled, synchronized deployments to Kubernetes clusters.',
+    tags: [
+      {
+        name: 'Jenkins',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ArgoCD',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Azure',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jenkins,
+    source_code_link:
+      'https://github.com/saqlaink/complete-production-e2e-pipeline',
+  },
+  {
+    name: 'Azure Kubernetes Service(AKS) Portfolio Deployment',
+    description:
+      'Executed a high-performing portfolio website deployment using AKS, Docker, and Kubernetes. Integrated Terraform for Infrastructure as Code (IaC) in Azure resources setup. Employed Kubernetes for automated deployment, scaling, and services configuration, ensuring optimal hosting. Implemented K8s Ingress with HTTPS using Cert-Manager for advanced site security and encrypted access.',
     tags: [
       {
         name: 'Azure',
@@ -70,8 +94,30 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: Expense,
-    source_code_link: 'https://github.com/saqlaink/CICD-Pipeline-GCP',
+    image: website,
+    source_code_link: 'https://github.com/saqlaink/Portfolio-Website-on-AKS',
+  },
+  {
+    name: 'Scalable Website Hosting - Azure VMSS & Load Balancer',
+    description:
+      'Crafted within Azure, a robust infrastructure was orchestrated, harnessing the power of VM ScaleSet and Load Balancer for hosting a dynamic portfolio website. Azure VMSS facilitated automated scaling, adeptly managing fluctuating traffic without manual intervention. An Azure Load Balancer intelligently distributed web traffic among multiple VM instances, elevating performance and resilience. Terraform was employed to define infrastructure as code, enabling reproducible deployments and dynamic resource adjustments in response to traffic patterns.',
+    tags: [
+      {
+        name: 'Azure',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Terraform',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: website,
+    source_code_link:
+      'https://github.com/saqlaink/Portfolio-Website-on-Azure-VMSS-with-LoadBalancer',
   },
   {
     name: 'Javascript Notebook',
@@ -114,6 +160,27 @@ const projects = [
     ],
     image: Ecommerce,
     source_code_link: 'https://github.com/saqlaink/ecommerce-front',
+  },
+  {
+    name: 'CICD PIPELINE',
+    description:
+      'Implemented a CI/CD pipeline for React app on GCP using Artifact Registry, Cloud Build Trigger, and Kubernetes Cluster. It automated software delivery for development and production on GitHub, using Git for version control and CloudBuild Triggers. Defined build steps in cloudbuild.yaml and used Artifact Registry to store container images. A GCP Kubernetes cluster was set up for efficient app deployment, with configuration details in gke.yaml.',
+    tags: [
+      {
+        name: 'GCP',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Kubernetes',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Docker',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: Expense,
+    source_code_link: 'https://github.com/saqlaink/CICD-Pipeline-GCP',
   },
 ];
 const certificates = [

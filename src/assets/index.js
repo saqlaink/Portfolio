@@ -8,6 +8,8 @@ import az400 from './az400.png';
 import link from './link.png';
 import jscolab from './jscolab.png';
 import Ecommerce from './Ecommerce.jpg';
+import jenkins from './Jenkins.png';
+import website from './Website.png';
 
 export {
   github,
@@ -20,4 +22,6 @@ export {
   az400,
   link,
   jscolab,
+  jenkins,
+  website,
 };
