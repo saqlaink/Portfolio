@@ -162,7 +162,7 @@ const projects = [
     source_code_link: 'https://github.com/saqlaink/ecommerce-front',
   },
   {
-    name: 'CICD PIPELINE',
+    name: 'GCP Based CI/CD Pipeline',
     description:
       'Implemented a CI/CD pipeline for React app on GCP using Artifact Registry, Cloud Build Trigger, and Kubernetes Cluster. It automated software delivery for development and production on GitHub, using Git for version control and CloudBuild Triggers. Defined build steps in cloudbuild.yaml and used Artifact Registry to store container images. A GCP Kubernetes cluster was set up for efficient app deployment, with configuration details in gke.yaml.',
     tags: [
