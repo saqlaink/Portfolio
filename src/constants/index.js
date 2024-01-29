@@ -5,6 +5,9 @@ import {
   az900,
   az104,
   az400,
+  ai102,
+  az305,
+  az500,
   jscolab,
   jenkins,
   website,
@@ -185,7 +188,7 @@ const projects = [
 ];
 const certificates = [
   {
-    name: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+    name: 'Microsoft Certified: Azure Fundamentals',
     tags: [
       {
         name: 'Describe cloud concepts',
@@ -205,7 +208,35 @@ const certificates = [
       'https://learn.microsoft.com/api/credentials/share/en-in/saqlainkhan-5109/AB16F762E9EE81BC?sharingId=FCC4FD2E3610000',
   },
   {
-    name: 'Microsoft Certified: Azure Administrator (AZ-104)',
+    name: 'Microsoft Certified: Azure AI Engineer Associate',
+    tags: [
+      {
+        name: 'Plan and manage an Azure AI solution',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Implement generative AI solutions',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Implement computer vision solutions',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Implement natural language processing solutions',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Implement knowledge mining and document intelligence solutions',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ai102,
+    source_code_link:
+      'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/8ec29f921483026d',
+  },
+  {
+    name: 'Microsoft Certified: Azure Administrator',
     tags: [
       {
         name: 'Manage Azure identities and governance',
@@ -233,7 +264,31 @@ const certificates = [
       'https://learn.microsoft.com/en-gb/users/saqlainkhan-5109/credentials/D8D5F40F15A83EC2',
   },
   {
-    name: 'Microsoft Certified: DevOps Engineer Expert (AZ-400)',
+    name: 'Microsoft Certified: Azure Solutions Architect Expert',
+    tags: [
+      {
+        name: 'Design identity, governance, and monitoring solutions',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Design data storage solutions',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Design business continuity solutions',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Design infrastructure solutions',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: az305,
+    source_code_link:
+      'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/89c2f09d905df104',
+  },
+  {
+    name: 'Microsoft Certified: DevOps Engineer Expert',
     tags: [
       {
         name: 'Configure processes and communications',
@@ -259,6 +314,30 @@ const certificates = [
     image: az400,
     source_code_link:
       'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/7056a45526e9f0fb',
+  },
+  {
+    name: 'Microsoft Certified: Azure Security Engineer Associate',
+    tags: [
+      {
+        name: 'Manage identity and access',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Secure networking',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Secure compute, storage, and databases',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Manage security operations',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: az500,
+    source_code_link:
+      'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/486b8e9a22642323',
   },
 ];
 
