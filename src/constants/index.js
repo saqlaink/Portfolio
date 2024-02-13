@@ -28,6 +28,34 @@ export const navLinks = [
   },
 ];
 
+// const experiences = [
+//   {
+//     title: 'Senior Systems Engineer',
+//     company_name: 'Infosys Ltd.',
+//     icon: Infosys,
+//     iconBg: '#383E56',
+//     date: 'Sept 2021 - Present',
+//     points: [
+//       'Designed and provided solutions for networking circuits that connected different locations across the United States as a Solutions Architect for Networking Systems at Lumen Technologies.',
+//       'Designed customer circuits using advanced wavelength architectures for metro and long-haul Dense wavelength division multiplexing(DWDM) networks.',
+//       'Utilized in-depth knowledge of networking technologies and protocols to analyze customer requirements and propose optimal solutions that met their needs.',
+//       'Collaborated closely with sales teams, network engineers and customers to ensure successful implementation of designed solutions.',
+//     ],
+//   },
+//   {
+//     title: 'Systems Engineer Trainee',
+//     company_name: 'Infosys',
+//     icon: Infosys,
+//     iconBg: '#383E56',
+//     date: 'June 2021 - Sept 2021',
+//     points: [
+//       "Learned Active Directory Administrator for on Premise infrastructure and on Cloud. Learned the responsibility of managing and maintaining the organization's Active Directory infrastructure",
+//       'Learned how to maintain the secure and efficient operation of the Active Directory system, which involved tasks such as managing user accounts, groups, and network resources.',
+//       'I also gained experience in enforcing security policies and ensuring compliance with industry regulations to safeguard sensitive data and ensure uninterrupted access for all users.',
+//     ],
+//   },
+// ];
+
 const experiences = [
   {
     title: 'Senior Systems Engineer',
@@ -36,22 +64,27 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Sept 2021 - Present',
     points: [
-      'Designed and provided solutions for networking circuits that connected different locations across the United States as a Solutions Architect for Networking Systems at Lumen Technologies.',
-      'Designed customer circuits using advanced wavelength architectures for metro and long-haul Dense wavelength division multiplexing(DWDM) networks.',
-      'Utilized in-depth knowledge of networking technologies and protocols to analyze customer requirements and propose optimal solutions that met their needs.',
-      'Collaborated closely with sales teams, network engineers and customers to ensure successful implementation of designed solutions.',
+      'Implemented and maintained CI/CD processes through Jenkins, automating builds and deployments using declarative pipeline scripts with Groovy-DSL methods.',
+      'Automated Jenkins builds triggered by Git pushes via Webhooks. Integrated essential testing tools like SonarQube, utilized Maven as the build tool, and stored artifacts in JFrog repositories.',
+      'Automated deploying reliable cloud infrastructure using Terraform reducing human efforts by 60%.',
+      'Initiated and led a team restructuring effort, consolidating two separate teams into an integrated group of 11 members. This strategic realignment optimized workflows, leading to a 75% improvement in meeting client SLAs for network circuit implementations.',
+      'Developed documentation for team that slashed errors by 68% in the first month of implementation.',
+      'Experienced with containerization and orchestration technologies like Docker and Kubernetes.',
+      'Maintained monitoring and alerting system with tools like Grafana, Prometheus, etc.',
     ],
   },
   {
-    title: 'Systems Engineer Trainee',
+    title: 'Systems Engineer',
     company_name: 'Infosys',
     icon: Infosys,
     iconBg: '#383E56',
     date: 'June 2021 - Sept 2021',
     points: [
-      "Learned Active Directory Administrator for on Premise infrastructure and on Cloud. Learned the responsibility of managing and maintaining the organization's Active Directory infrastructure",
-      'Learned how to maintain the secure and efficient operation of the Active Directory system, which involved tasks such as managing user accounts, groups, and network resources.',
-      'I also gained experience in enforcing security policies and ensuring compliance with industry regulations to safeguard sensitive data and ensure uninterrupted access for all users.',
+      'Managed 15 AWS production accounts including the setup and configuration of EC2, RDS instances, VPC, load balancers, API Gateway, Cloudwatch, Route 53 hosted zones, health checks, etc.',
+      'Slashed spending on EC2 by 40% on using Graviton-2 based instances, concluding after based on my research on EC2 instances and storage systems.',
+      'Skilled in troubleshooting live production services and designing complex wavelength network architectures for Fortune 500 companies.',
+      'Achieved 60% reduction in workload by implementing Python scripting for automation, resulting in a significant 55% decrease in errors. Automated routine tasks using bash scripts.',
+      'Extensive knowledge of designing and deploying networking AWS services including VPC, route tables, firewalls, security groups and NACL, NAT gateway, load balancer and, VPC flow logs.',
     ],
   },
 ];
