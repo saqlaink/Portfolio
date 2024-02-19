@@ -4,16 +4,24 @@ const skillsSection = {
   skills: [],
   softwareSkills: [
     {
-      skillName: 'Azure',
-      fontAwesomeClassname: 'fab fa-windows fa-xl',
-    },
-    {
       skillName: 'Kubernetes',
       fontAwesomeClassname: 'fas fa-dharmachakra fa-xl',
     },
     {
       skillName: 'Docker',
       fontAwesomeClassname: 'fab fa-docker fa-xl',
+    },
+    {
+      skillName: 'Jenkins',
+      fontAwesomeClassname: 'fab fa-jenkins fa-xl',
+    },
+    {
+      skillName: 'Azure',
+      fontAwesomeClassname: 'fab fa-windows fa-xl',
+    },
+    {
+      skillName: 'aws',
+      fontAwesomeClassname: 'fab fa-aws fa-xl',
     },
     {
       skillName: 'JavaScript',
@@ -46,10 +54,6 @@ const skillsSection = {
     {
       skillName: 'Node',
       fontAwesomeClassname: 'fab fa-node fa-xl',
-    },
-    {
-      skillName: 'Jenkins',
-      fontAwesomeClassname: 'fab fa-jenkins fa-xl',
     },
     {
       skillName: 'Python',

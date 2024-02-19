@@ -62,7 +62,7 @@ const experiences = [
     company_name: 'Infosys Ltd.',
     icon: Infosys,
     iconBg: '#383E56',
-    date: 'Sept 2021 - Present',
+    date: 'Feb 2023 - Present',
     points: [
       'Implemented and maintained CI/CD processes through Jenkins, automating builds and deployments using declarative pipeline scripts with Groovy-DSL methods.',
       'Automated Jenkins builds triggered by Git pushes via Webhooks. Integrated essential testing tools like SonarQube, utilized Maven as the build tool, and stored artifacts in JFrog repositories.',
@@ -78,10 +78,10 @@ const experiences = [
     company_name: 'Infosys',
     icon: Infosys,
     iconBg: '#383E56',
-    date: 'June 2021 - Sept 2021',
+    date: 'June 2021 - Feb 2023',
     points: [
       'Designed Terraform scripts tailored to different AWS components, ensuring flexibility and scalability in infrastructure setup.',
-      'Actively engaged with development teams to understand their requirements, translating them into actionable script components. This collaboration ensured that the infrastructure met the specific needs of the applications.',
+      'Engaged with development teams to understand requirements and translate them into actionable script components, ensuring infrastructure alignment with application needs.',
       'Utilized Git repositories to store and version-control Terraform scripts. Integrated this repository seamlessly with Jenkins using webhooks, allowing for automated deployment with each code push.',
       'Designed and deployed foundational AWS components such as Virtual Private Clouds (VPCs), Subnets, Availability Zones (AZs), Route53 configurations, Load Balancers, and Auto Scaling Groups (ASG) with tailored launch configurations.',
       'Implemented secure and reliable Terraform state file management by centrally storing them in an S3 bucket, ensuring infrastructure consistency.',
