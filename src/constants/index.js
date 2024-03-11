@@ -58,7 +58,7 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: 'Senior Systems Engineer',
+    title: 'Senior Systems Engineer/DevOps Engineer',
     company_name: 'Infosys Ltd.',
     icon: Infosys,
     iconBg: '#383E56',
@@ -74,7 +74,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Systems Engineer',
+    title: 'Systems Engineer/AWS Cloud Engg.',
     company_name: 'Infosys',
     icon: Infosys,
     iconBg: '#383E56',
@@ -349,30 +349,30 @@ const certificates = [
     source_code_link:
       'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/7056a45526e9f0fb',
   },
-  {
-    name: 'Microsoft Certified: Azure Security Engineer Associate',
-    tags: [
-      {
-        name: 'Manage identity and access',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Secure networking',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Secure compute, storage, and databases',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Manage security operations',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: az500,
-    source_code_link:
-      'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/486b8e9a22642323',
-  },
+  // {
+  //   name: 'Microsoft Certified: Azure Security Engineer Associate',
+  //   tags: [
+  //     {
+  //       name: 'Manage identity and access',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'Secure networking',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'Secure compute, storage, and databases',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'Manage security operations',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: az500,
+  //   source_code_link:
+  //     'https://learn.microsoft.com/en-us/users/saqlainkhan-5109/credentials/486b8e9a22642323',
+  // },
 ];
 
 export { experiences, projects, certificates };
