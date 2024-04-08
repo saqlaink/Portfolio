@@ -62,7 +62,7 @@ const experiences = [
     company_name: 'Infosys Ltd.',
     icon: Infosys,
     iconBg: '#383E56',
-    date: 'Feb 2023 - Present',
+    date: 'Dec 2022 - Present',
     points: [
       'Implemented and maintained CI/CD processes through Jenkins, automating builds and deployments using declarative pipeline scripts with Groovy-DSL methods.',
       'Automated Jenkins builds triggered by Git pushes via Webhooks. Integrated essential testing tools like SonarQube, utilized Maven as the build tool, and stored artifacts in JFrog repositories.',
@@ -78,7 +78,7 @@ const experiences = [
     company_name: 'Infosys',
     icon: Infosys,
     iconBg: '#383E56',
-    date: 'June 2021 - Feb 2023',
+    date: 'June 2021 - Dec 2022',
     points: [
       'Designed Terraform scripts tailored to different AWS components, ensuring flexibility and scalability in infrastructure setup.',
       'Engaged with development teams to understand requirements and translate them into actionable script components, ensuring infrastructure alignment with application needs.',
