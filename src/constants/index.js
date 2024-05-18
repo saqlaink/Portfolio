@@ -58,11 +58,11 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: 'Senior Systems Engineer/DevOps Engineer',
+    title: 'DevOps/SRE Engineer',
     company_name: 'Infosys Ltd.',
     icon: Infosys,
     iconBg: '#383E56',
-    date: 'Dec 2022 - Present',
+    date: 'June 2021 - Present',
     points: [
       'Implemented and maintained CI/CD processes through Jenkins, automating builds and deployments using declarative pipeline scripts with Groovy-DSL methods.',
       'Automated Jenkins builds triggered by Git pushes via Webhooks. Integrated essential testing tools like SonarQube, utilized Maven as the build tool, and stored artifacts in JFrog repositories.',
@@ -73,21 +73,21 @@ const experiences = [
       'Maintained monitoring and alerting system with tools like Grafana, Prometheus, etc.',
     ],
   },
-  {
-    title: 'Systems Engineer/AWS Cloud Engg.',
-    company_name: 'Infosys',
-    icon: Infosys,
-    iconBg: '#383E56',
-    date: 'June 2021 - Dec 2022',
-    points: [
-      'Designed Terraform scripts tailored to different AWS components, ensuring flexibility and scalability in infrastructure setup.',
-      'Engaged with development teams to understand requirements and translate them into actionable script components, ensuring infrastructure alignment with application needs.',
-      'Utilized Git repositories to store and version-control Terraform scripts. Integrated this repository seamlessly with Jenkins using webhooks, allowing for automated deployment with each code push.',
-      'Designed and deployed foundational AWS components such as Virtual Private Clouds (VPCs), Subnets, Availability Zones (AZs), Route53 configurations, Load Balancers, and Auto Scaling Groups (ASG) with tailored launch configurations.',
-      'Implemented secure and reliable Terraform state file management by centrally storing them in an S3 bucket, ensuring infrastructure consistency.',
-      'Implemented key components including Content Delivery Networks (CDNs), API Gateway, and AWS Certificate Manager (ACM), optimizing application flow for improved user experience and performance.',
-    ],
-  },
+  // {
+  //   title: 'Systems Engineer/AWS Cloud Engg.',
+  //   company_name: 'Infosys',
+  //   icon: Infosys,
+  //   iconBg: '#383E56',
+  //   date: 'June 2021 - Dec 2022',
+  //   points: [
+  //     'Designed Terraform scripts tailored to different AWS components, ensuring flexibility and scalability in infrastructure setup.',
+  //     'Engaged with development teams to understand requirements and translate them into actionable script components, ensuring infrastructure alignment with application needs.',
+  //     'Utilized Git repositories to store and version-control Terraform scripts. Integrated this repository seamlessly with Jenkins using webhooks, allowing for automated deployment with each code push.',
+  //     'Designed and deployed foundational AWS components such as Virtual Private Clouds (VPCs), Subnets, Availability Zones (AZs), Route53 configurations, Load Balancers, and Auto Scaling Groups (ASG) with tailored launch configurations.',
+  //     'Implemented secure and reliable Terraform state file management by centrally storing them in an S3 bucket, ensuring infrastructure consistency.',
+  //     'Implemented key components including Content Delivery Networks (CDNs), API Gateway, and AWS Certificate Manager (ACM), optimizing application flow for improved user experience and performance.',
+  //   ],
+  // },
 ];
 
 const projects = [
