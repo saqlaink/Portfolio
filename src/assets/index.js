@@ -8,6 +8,7 @@ import az400 from './az400.png';
 import ai102 from './ai102.png';
 import az305 from './az305.png';
 import az500 from './az500.png';
+import cka from './cka.png';
 import link from './link.png';
 import jscolab from './jscolab.png';
 import Ecommerce from './Ecommerce.jpg';
@@ -26,6 +27,7 @@ export {
   az500,
   az104,
   az400,
+  cka,
   link,
   jscolab,
   jenkins,
