@@ -8,6 +8,7 @@ import {
   ai102,
   az305,
   az500,
+  cka,
   jscolab,
   jenkins,
   website,
@@ -220,7 +221,32 @@ const projects = [
     source_code_link: 'https://github.com/saqlaink/CICD-Pipeline-GCP',
   },
 ];
+
 const certificates = [
+  {
+    name: 'Certified Kubernetes Adminsistrator (CKA)',
+    tags: [
+      {
+        name: 'Application Lifecycle Management',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Cluster Maintenance',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Troubleshooting',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Logging / Monitoring, Storage',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: cka,
+    source_code_link:
+      'https://www.credly.com/badges/3a1d5d7f-857b-4a08-a296-190bff92a2cc',
+  },
   {
     name: 'Microsoft Certified: Azure Fundamentals',
     tags: [
